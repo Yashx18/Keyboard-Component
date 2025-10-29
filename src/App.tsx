@@ -551,8 +551,8 @@ function App() {
         {/* Row-3 */}
         <div className="mb-1 flex h-fit w-full items-center justify-between gap-1 text-xs">
           <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
-            <div className="flex h-12 w-18 flex-col items-start justify-end pb-1 rounded-md bg-[#0a090d] pl-1.5 text-xs">
-              tab{' '}
+            <div className="flex h-12 w-18 flex-col items-start justify-end rounded-md bg-[#0a090d] pb-1 pl-1.5 text-xs">
+              tab
             </div>
           </div>
           <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
@@ -621,6 +621,271 @@ function App() {
             <div className="flex h-12 w-12 flex-col items-center justify-center gap-1 rounded-md bg-[#0a090d] text-xs">
               <span>|</span>
               <span>\</span>
+            </div>
+          </div>
+        </div>
+        {/* Row-4 */}
+        <div className="mb-1 flex h-fit w-full items-center justify-between gap-1 text-xs">
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-22 flex-col items-start justify-end rounded-md bg-[#0a090d] pb-1 pl-1.5 text-xs">
+              caps lock
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              A
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              S
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              D
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              F
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              G
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              H
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              J
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              K
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              L
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              ;
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              <span>"</span>
+              <span>'</span>
+            </div>
+          </div>
+          <div className="w-full cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-full flex-col items-end justify-end rounded-md bg-[#0a090d] pr-1.5 pb-1 text-xs">
+              return
+            </div>
+          </div>
+        </div>
+        {/* Row-5 */}
+        <div className="mb-1 flex h-fit w-full items-center justify-between gap-1 text-xs">
+          <div className="w-full cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-full flex-col items-start justify-end rounded-md bg-[#0a090d] pb-1 pl-1.5 text-xs">
+              shift
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              Z
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              X
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              C
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              V
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              B
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              N
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              M
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              ,
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              .
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              /
+            </div>
+          </div>
+          <div className="w-full cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-full flex-col items-end justify-end rounded-md bg-[#0a090d] pr-1.5 pb-1 text-xs">
+              shift
+            </div>
+          </div>
+        </div>
+        {/* Row-6 */}
+        <div className="mb-1 flex h-fit w-full items-center justify-between gap-1 text-xs">
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-18 flex-col items-start justify-end rounded-md bg-[#0a090d] pb-1 pl-1.5 text-xs">
+              fn
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              control
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              option{' '}
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              command
+            </div>
+          </div>
+          <div className="w-full cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-full flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs"></div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-fit flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] px-2 text-xs">
+              command
+            </div>
+          </div>
+          <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+            <div className="flex h-12 w-12 flex-col items-center justify-center gap-2 rounded-md bg-[#0a090d] text-xs">
+              option
+            </div>
+          </div>
+          {/* NAVIGATION KEYS */}
+          <div className="flex h-12 w-fit items-end justify-center gap-1 px-2">
+            {/* Left button */}
+            <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+              <div className="flex h-auto w-12 flex-col items-center justify-center gap-1 rounded-md bg-[#0a090d] py-[4px] text-xs">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="h-[12px] w-[12px]"
+                >
+                  <path
+                    d="M13.883 5.007l.058 -.005h.118l.058 .005l.06 .009l.052 .01l.108 .032l.067 .027l.132 .07l.09 .065l.081 .073l.083 .094l.054 .077l.054 .096l.017 .036l.027 .067l.032 .108l.01 .053l.01 .06l.004 .057l.002 .059v12c0 .852 -.986 1.297 -1.623 .783l-.084 -.076l-6 -6a1 1 0 0 1 -.083 -1.32l.083 -.094l6 -6l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01z"
+                    fill="currentColor"
+                    stroke-width="0"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            {/* Up and Down Navigation */}
+            <div className="flex h-full flex-col items-center justify-center gap-1">
+              {/* Up Button */}
+              <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+                <div className="flex h-auto w-12 flex-col items-center justify-center gap-1 rounded-md bg-[#0a090d] py-[4px] text-xs">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="h-[12px] w-[12px]"
+                  >
+                    <path
+                      d="M11.293 7.293a1 1 0 0 1 1.32 -.083l.094 .083l6 6l.083 .094l.054 .077l.054 .096l.017 .036l.027 .067l.032 .108l.01 .053l.01 .06l.004 .057l.002 .059l-.002 .059l-.005 .058l-.009 .06l-.01 .052l-.032 .108l-.027 .067l-.07 .132l-.065 .09l-.073 .081l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002h-12c-.852 0 -1.297 -.986 -.783 -1.623l.076 -.084l6 -6z"
+                      fill="currentColor"
+                      stroke-width="0"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+                <div className="flex h-auto w-12 flex-col items-center justify-center gap-1 rounded-md bg-[#0a090d] py-[4px] text-xs">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    className="h-[12px] w-[12px]"
+                  >
+                    <path
+                      d="M18 9c.852 0 1.297 .986 .783 1.623l-.076 .084l-6 6a1 1 0 0 1 -1.32 .083l-.094 -.083l-6 -6l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057v-.118l.005 -.058l.009 -.06l.01 -.052l.032 -.108l.027 -.067l.07 -.132l.065 -.09l.073 -.081l.094 -.083l.077 -.054l.096 -.054l.036 -.017l.067 -.027l.108 -.032l.053 -.01l.06 -.01l.057 -.004l12.059 -.002z"
+                      fill="currentColor"
+                      stroke-width="0"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            {/* Right Button */}
+            <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">
+              <div className="flex h-auto w-12 flex-col items-center justify-center gap-1 rounded-md bg-[#0a090d] py-[4px] text-xs">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  className="h-[12px] w-[12px]"
+                >
+                  <path
+                    d="M9 6c0 -.852 .986 -1.297 1.623 -.783l.084 .076l6 6a1 1 0 0 1 .083 1.32l-.083 .094l-6 6l-.094 .083l-.077 .054l-.096 .054l-.036 .017l-.067 .027l-.108 .032l-.053 .01l-.06 .01l-.057 .004l-.059 .002l-.059 -.002l-.058 -.005l-.06 -.009l-.052 -.01l-.108 -.032l-.067 -.027l-.132 -.07l-.09 -.065l-.081 -.073l-.083 -.094l-.054 -.077l-.054 -.096l-.017 -.036l-.027 -.067l-.032 -.108l-.01 -.053l-.01 -.06l-.004 -.057l-.002 -12.059z"
+                    fill="currentColor"
+                    stroke-width="0"
+                  ></path>
+                </svg>
+              </div>
             </div>
           </div>
         </div>
