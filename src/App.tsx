@@ -4,7 +4,8 @@ function App() {
   return (
     <div className="font-roboto flex min-h-screen w-full items-center justify-center bg-linear-to-b from-[#161718] to-[#0e0f12] text-white">
       {/* This is the Keyboard */}
-      <div className="rounded-2xl bg-[#27272a] p-2 text-xs">
+      <div className='exception:hidden block text-center px-6'>Use a device with larger screen to view this component.</div>
+      <div className="rounded-2xl bg-[#27272a] p-2 text-xs exception:block hidden">
         {/* Row-1 */}
         <div className="mb-1 flex h-fit w-full items-center justify-between gap-1">
           <div className="cursor-pointer rounded-lg bg-white/20 pt-0.5 pl-0.5 shadow-md shadow-white/50 transition-transform duration-100 hover:scale-[0.98] hover:shadow-none">

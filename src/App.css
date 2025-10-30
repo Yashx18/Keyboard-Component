@@ -3,5 +3,5 @@
 
 @theme {
   --font-roboto: 'roboto', sans-serif;
-
+  --breakpoint-exception: 60rem;
 }
